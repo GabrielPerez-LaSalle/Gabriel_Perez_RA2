@@ -1,0 +1,30 @@
+======================================================================
+ÍNDICE DEL REPORTE DE VOLUMETRÍA
+======================================================================
+
+Fecha de generación: 2026-02-17 15:27:10
+Entorno: development
+
+ARCHIVOS GENERADOS:
+----------------------------------------------------------------------
+
+1. CANTIDAD DE REGISTROS POR ENTIDAD
+   volumetria_registros_por_entidad_20260217_152701.csv
+   Total registros: 1,080,464
+
+2. DISTRIBUCIÓN DE MERCADOS (ACTIVOS VS. CERRADOS)
+   volumetria_distribucion_mercados_resumen_20260217_152701.csv
+   volumetria_distribucion_mercados_por_categoria_20260217_152701.csv
+   Total mercados: 436,728
+   Activos: 436,728 (100.00%)
+   Cerrados: 409,473 (93.76%)
+
+3. ANÁLISIS DE RELACIONES
+   volumetria_mercados_por_evento_top50_20260217_152701.csv (Top 50 eventos)
+   volumetria_mercados_por_serie_top30_20260217_152701.csv (Top 30 series)
+   volumetria_mercados_por_tag_top30_20260217_152701.csv (Top 30 tags)
+   volumetria_resumen_relaciones_20260217_152701.csv (Resumen)
+
+======================================================================
+Todos los archivos están en la carpeta: reportes/
+======================================================================

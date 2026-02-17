@@ -1,0 +1,6 @@
+2026-02-16 23:05:47,164 - DataWarehouseETL - INFO - 
+============================================================
+2026-02-16 23:05:47,164 - DataWarehouseETL - INFO - INICIANDO CARGA COMPLETA DEL DATA WAREHOUSE
+2026-02-16 23:05:47,165 - DataWarehouseETL - INFO - ============================================================
+
+2026-02-16 23:05:47,165 - DataWarehouseETL - INFO - Conectando a NeonDB (development)...

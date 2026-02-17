@@ -1,0 +1,386 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "Polymarket API",
+  "dateExported": "2026-02-10",
+  "version": "1.0",
+  "folders": [
+    {
+      "name": "Tags",
+      "requests": []
+    },
+    {
+      "name": "Events",
+      "requests": []
+    },
+    {
+      "name": "Series",
+      "requests": []
+    },
+    {
+      "name": "Markets",
+      "requests": []
+    }
+  ],
+  "requests": [
+    {
+      "name": "Tags - Listar Todos (10 primeros)",
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/tags",
+      "params": [
+        {
+          "name": "limit",
+          "value": "10",
+          "isPath": false
+        },
+        {
+          "name": "offset",
+          "value": "0",
+          "isPath": false
+        }
+      ],
+      "headers": [],
+      "body": null,
+      "folder": "Tags"
+    },
+    {
+      "name": "Tags - Obtener 100",
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/tags",
+      "params": [
+        {
+          "name": "limit",
+          "value": "100",
+          "isPath": false
+        },
+        {
+          "name": "offset",
+          "value": "0",
+          "isPath": false
+        }
+      ],
+      "headers": [],
+      "body": null,
+      "folder": "Tags"
+    },
+    {
+      "name": "Tags - Paginación (segunda página)",
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/tags",
+      "params": [
+        {
+          "name": "limit",
+          "value": "10",
+          "isPath": false
+        },
+        {
+          "name": "offset",
+          "value": "10",
+          "isPath": false
+        }
+      ],
+      "headers": [],
+      "body": null,
+      "folder": "Tags"
+    },
+    {
+      "name": "Events - Listar Todos (20 primeros)",
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/events",
+      "params": [
+        {
+          "name": "limit",
+          "value": "20",
+          "isPath": false
+        },
+        {
+          "name": "offset",
+          "value": "0",
+          "isPath": false
+        }
+      ],
+      "headers": [],
+      "body": null,
+      "folder": "Events"
+    },
+    {
+      "name": "Events - Solo Activos",
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/events",
+      "params": [
+        {
+          "name": "limit",
+          "value": "50",
+          "isPath": false
+        },
+        {
+          "name": "offset",
+          "value": "0",
+          "isPath": false
+        },
+        {
+          "name": "active",
+          "value": "true",
+          "isPath": false
+        }
+      ],
+      "headers": [],
+      "body": null,
+      "folder": "Events"
+    },
+    {
+      "name": "Events - Solo Featured",
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/events",
+      "params": [
+        {
+          "name": "limit",
+          "value": "20",
+          "isPath": false
+        },
+        {
+          "name": "offset",
+          "value": "0",
+          "isPath": false
+        },
+        {
+          "name": "featured",
+          "value": "true",
+          "isPath": false
+        }
+      ],
+      "headers": [],
+      "body": null,
+      "folder": "Events"
+    },
+    {
+      "name": "Events - Alta Liquidez",
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/events",
+      "params": [
+        {
+          "name": "limit",
+          "value": "30",
+          "isPath": false
+        },
+        {
+          "name": "offset",
+          "value": "0",
+          "isPath": false
+        },
+        {
+          "name": "liquidity_min",
+          "value": "10000",
+          "isPath": false
+        },
+        {
+          "name": "active",
+          "value": "true",
+          "isPath": false
+        }
+      ],
+      "headers": [],
+      "body": null,
+      "folder": "Events"
+    },
+    {
+      "name": "Events - Por Tag Crypto",
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/events",
+      "params": [
+        {
+          "name": "limit",
+          "value": "25",
+          "isPath": false
+        },
+        {
+          "name": "offset",
+          "value": "0",
+          "isPath": false
+        },
+        {
+          "name": "tag_slug",
+          "value": "crypto",
+          "isPath": false
+        }
+      ],
+      "headers": [],
+      "body": null,
+      "folder": "Events"
+    },
+    {
+      "name": "Series - Listar Todas (20 primeras)",
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/series",
+      "params": [
+        {
+          "name": "limit",
+          "value": "20",
+          "isPath": false
+        },
+        {
+          "name": "offset",
+          "value": "0",
+          "isPath": false
+        }
+      ],
+      "headers": [],
+      "body": null,
+      "folder": "Series"
+    },
+    {
+      "name": "Series - Solo Activas",
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/series",
+      "params": [
+        {
+          "name": "limit",
+          "value": "50",
+          "isPath": false
+        },
+        {
+          "name": "offset",
+          "value": "0",
+          "isPath": false
+        },
+        {
+          "name": "active",
+          "value": "true",
+          "isPath": false
+        }
+      ],
+      "headers": [],
+      "body": null,
+      "folder": "Series"
+    },
+    {
+      "name": "Series - Featured",
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/series",
+      "params": [
+        {
+          "name": "limit",
+          "value": "15",
+          "isPath": false
+        },
+        {
+          "name": "offset",
+          "value": "0",
+          "isPath": false
+        },
+        {
+          "name": "featured",
+          "value": "true",
+          "isPath": false
+        }
+      ],
+      "headers": [],
+      "body": null,
+      "folder": "Series"
+    },
+    {
+      "name": "Markets - Listar Todos (30 primeros)",
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/markets",
+      "params": [
+        {
+          "name": "limit",
+          "value": "30",
+          "isPath": false
+        },
+        {
+          "name": "offset",
+          "value": "0",
+          "isPath": false
+        }
+      ],
+      "headers": [],
+      "body": null,
+      "folder": "Markets"
+    },
+    {
+      "name": "Markets - Solo Activos",
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/markets",
+      "params": [
+        {
+          "name": "limit",
+          "value": "50",
+          "isPath": false
+        },
+        {
+          "name": "offset",
+          "value": "0",
+          "isPath": false
+        },
+        {
+          "name": "active",
+          "value": "true",
+          "isPath": false
+        },
+        {
+          "name": "closed",
+          "value": "false",
+          "isPath": false
+        }
+      ],
+      "headers": [],
+      "body": null,
+      "folder": "Markets"
+    },
+    {
+      "name": "Markets - Alta Liquidez",
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/markets",
+      "params": [
+        {
+          "name": "limit",
+          "value": "20",
+          "isPath": false
+        },
+        {
+          "name": "offset",
+          "value": "0",
+          "isPath": false
+        },
+        {
+          "name": "liquidity_min",
+          "value": "5000",
+          "isPath": false
+        },
+        {
+          "name": "active",
+          "value": "true",
+          "isPath": false
+        }
+      ],
+      "headers": [],
+      "body": null,
+      "folder": "Markets"
+    },
+    {
+      "name": "Markets - Top Volume",
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/markets",
+      "params": [
+        {
+          "name": "limit",
+          "value": "25",
+          "isPath": false
+        },
+        {
+          "name": "offset",
+          "value": "0",
+          "isPath": false
+        },
+        {
+          "name": "volume_min",
+          "value": "10000",
+          "isPath": false
+        }
+      ],
+      "headers": [],
+      "body": null,
+      "folder": "Markets"
+    }
+  ]
+}

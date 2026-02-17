@@ -1,0 +1,6 @@
+2026-02-16 23:05:50,603 - DeltaLakeManager - INFO - Leyendo última versión de tabla series
+2026-02-16 23:05:55,695 - DeltaLakeManager - INFO - Leídos 1073 registros de series
+2026-02-16 23:05:55,703 - DeltaLakeManager - INFO - Leyendo última versión de tabla tags
+2026-02-16 23:05:55,751 - DeltaLakeManager - INFO - Leídos 5027 registros de tags
+2026-02-16 23:05:55,754 - DeltaLakeManager - ERROR - Error al leer tabla Delta events: Generic DeltaTable error: Cannot read metadata from log segment
+2026-02-16 23:05:55,758 - DeltaLakeManager - ERROR - Error al leer tabla Delta markets: Generic DeltaTable error: Cannot read metadata from log segment

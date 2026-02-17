@@ -1,0 +1,9 @@
+Entidad,Descripción,Total Registros,Porcentaje
+bridge_market_tag,Puente Market-Tag,3510,0.32%
+dim_event,Dimensión Eventos,195214,18.07%
+dim_market,Dimensión Mercados,436728,40.42%
+dim_series,Dimensión Series,1073,0.10%
+dim_tag,Dimensión Tags,5020,0.46%
+dim_time,Dimensión Tiempo,2191,0.20%
+fact_market_metrics,Tabla de Hechos (Métricas),436728,40.42%
+TOTAL,Suma de todas las entidades,1080464,100.00%

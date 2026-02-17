@@ -1,0 +1,25 @@
+# ============================================================
+# FASE 3: API - Dependencies
+# Polymarket Data Warehouse API
+# ============================================================
+
+# FastAPI Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+
+# Database
+psycopg2-binary==2.9.9
+
+# Environment variables
+python-dotenv==1.0.0
+
+# CORS middleware (ya incluido en FastAPI pero explícito)
+# starlette==0.35.1  # Ya viene con FastAPI
+
+# Optional: Testing
+pytest==7.4.4
+httpx==0.26.0
+
+# Optional: Documentation enhancements
+# markdown==3.5.2
